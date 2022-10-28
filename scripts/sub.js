@@ -5,10 +5,10 @@ const audio = document.getElementById("myAudio");
 var answer = 0;
 var swap;
 function generate_equation(){
- var num1 = Math.floor(Math.random()*13);
- var num2 = Math.floor(Math.random()*13);
- var dummyAnswer1 = Math.floor(Math.random()*13);
- var dummyAnswer2 = Math.floor(Math.random()*13);
+ var num1 = Math.floor(Math.random()*30);
+ var num2 = Math.floor(Math.random()*30);
+ var dummyAnswer1 = Math.floor(Math.random()*30);
+ var dummyAnswer2 = Math.floor(Math.random()*20);
  var allAnswer;
  var switchAnswer = [];
 
